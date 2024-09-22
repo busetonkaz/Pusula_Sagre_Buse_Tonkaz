@@ -11,6 +11,8 @@ In this project, we utilized a dataset that contain detail such as the start dat
 -Transformation of Categorical Variables: Categorical variables are converted into numerical data using Label Encoding methods.
 - Data Exploding: Columns with list-formatted data, such as chronic diseases are exploded so that each item becomes a separate row.
 - Data Visualization: Frequency distributions of categorical variables and correlation analyses of numerical data are visualized.
+- Standardization: I applied StandardScaler() to ensure the standardization of the numerical variables.
+
 
 
 ## Libraries Used ##
